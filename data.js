@@ -11,7 +11,7 @@ window.TREE = {
   meta: {
     title: "A Missiological Family Tree",
     subtitle: "How OneHope's Nine Core Values grew from four roots",
-    byline: ["Kyle Glashower", "MISS 7013 Missional Theology", "Southeastern University", "Assessment 1.1, Missiological Family Tree", "December 2026"],
+    byline: ["Kyle Glashower", "MISS 7013 Missional Theology", "Southeastern University", "Assessment 1.1, Missiological Family Tree", "Fall 2026"],
     thesis: "OneHope's Nine Core Values are not a culture statement attached to a mission. They are fruit. Four of them came with the organization's founding; five were learned. Each can be traced to the branch it grew from, and the branches that bear no fruit are as telling as the ones that do.",
     howToRead: "Click any part of the tree. Soil is the context OneHope did not choose. Roots are Scripture. The trunk is the missio Dei every branch shares. The four branches are the influences that make OneHope distinct. The nine fruit are the Core Values. The bare branches are what has not grown.",
     legend: [
