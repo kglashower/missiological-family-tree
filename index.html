@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Missiological Family Tree</title>
+  <meta name="description" content="How OneHope's Nine Core Values grew from four roots. MISS 7013, Southeastern University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#top">A Missiological Family Tree</a>
+      <nav class="nav">
+        <a href="#tree">Tree</a>
+        <a href="#bare">Bare branches</a>
+        <a href="#pruning">Pruning</a>
+        <a href="#notes">Notes</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="kicker">MISS 7013 Missional Theology · Assessment 1.1</p>
+      <h1 id="site-title"></h1>
+      <p class="subtitle" id="site-subtitle"></p>
+      <p class="byline" id="site-byline"></p>
+      <p class="thesis" id="site-thesis"></p>
+      <p class="how" id="site-how"></p>
+    </section>
+
+    <div class="legend-band"><div class="wrap legend" id="legend"></div></div>
+
+    <section id="tree" class="tree-section">
+      <div class="wrap tree-wrap">
+        <div class="tree-column">
+          <div class="tree-figure">
+            <svg id="tree-svg" viewBox="0 0 1000 1120" role="img" aria-label="The family tree: soil, roots, trunk, four branches, nine fruit, four bare branches"></svg>
+          </div>
+          <p class="tree-hint">Click any badge, canopy, root, or patch of soil. A fruit hangs from the branch it chiefly grew from; a dashed line ties it to a second influence.</p>
+        </div>
+        <aside class="panel" id="panel" aria-live="polite">
+          <div class="panel-inner" id="panel-inner">
+            <p class="panel-empty">Select a node on the tree to read it here.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="values" class="wrap values-section">
+      <h2>The nine fruit</h2>
+      <p class="lede">Four values came with the founding; five were learned. Click a value to open it in the tree.</p>
+      <div class="value-grid" id="value-grid"></div>
+    </section>
+
+    <section id="bare" class="wrap bare-section">
+      <h2>What the tree has not grown</h2>
+      <p class="lede">The assignment asks which ideas are present, which are absent, and what was left out because the tradition had no consensus. These four branches bear no fruit yet.</p>
+      <div class="bare-grid" id="bare-grid"></div>
+    </section>
+
+    <section id="pruning" class="wrap pruning-section">
+      <h2>Pruning and growth</h2>
+      <div class="pruning-grid" id="pruning-grid"></div>
+    </section>
+
+    <section id="dates" class="wrap dates-section">
+      <h2>Dates</h2>
+      <p class="lede">The tree does not show sequence. This table does. Dates come from public sources; OneHope's own figures are self-reported.</p>
+      <table class="dates-table" id="dates-table"></table>
+    </section>
+
+    <section id="notes" class="wrap notes-section">
+      <h2>Notes</h2>
+      <ol class="notes-list" id="notes-list"></ol>
+      <h2>Bibliography</h2>
+      <ul class="bib-list" id="bib-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>Kyle Glashower · MISS 7013 Missional Theology · Southeastern University · 2026</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
